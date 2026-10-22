@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: skyinfo
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
